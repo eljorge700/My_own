@@ -28,4 +28,4 @@ elif time_diff < timedelta(0): # если дедлайн прошел
 else: # если дедлайн не наступил
     time_diff += timedelta(days=1)  # Добавляем один день к разнице
     days_left = time_diff.days # вычисляем количество оставшихся дней
-    print(f"There are {days_left} days left until the deadline.") # выводим сообщение
+    print(f"There are {days_left} days left until the deadline.") # выводим сообщение.
