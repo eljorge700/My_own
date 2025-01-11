@@ -35,4 +35,4 @@ def update_status(note_status):
 note_data = {} # создаем пустой словарь
 updated_status = update_status(note_data) # сохраняем результат в переменной
 print(f"\nThe note status has been successfully updated to: \"{updated_status}\"") # выводим обновленный статус в консоль
-print(f'{note_data}') # выводим словарь для проверки
+print(f'{note_data}') # выводим словарь для проверки.
