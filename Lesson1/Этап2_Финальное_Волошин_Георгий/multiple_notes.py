@@ -128,7 +128,7 @@ while True:
         break
     else:
         print("Invalid input. Please enter 'yes' or 'no'.")
-# вывод всех заметок
+# вывод всех заметок.
 print("\nAll created notes:")
 for note in notes:
     print_note(note)
